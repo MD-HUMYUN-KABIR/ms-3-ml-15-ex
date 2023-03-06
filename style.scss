@@ -1,0 +1,23 @@
+@use 'variable';
+
+$primary-color:blue;
+h1{
+  color: $primary-color;  
+  font-size: variable.$big;
+}
+ul{
+    background-color: aqua;
+    li{
+        list-style: none;
+        a{
+            text-decoration: none;
+        }
+    }
+}
+button{
+    background-color: red;
+    border: rgba(255, 0, 0, 0.264);
+    &:hover{
+        background-color: aquamarine;
+    }
+}

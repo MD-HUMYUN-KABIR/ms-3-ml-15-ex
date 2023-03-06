@@ -1,0 +1,22 @@
+h1 {
+  color: blue;
+  font-size: 24px;
+}
+
+ul {
+  background-color: aqua;
+}
+ul li {
+  list-style: none;
+}
+ul li a {
+  text-decoration: none;
+}
+
+button {
+  background-color: red;
+  border: rgba(255, 0, 0, 0.264);
+}
+button:hover {
+  background-color: aquamarine;
+}/*# sourceMappingURL=style.css.map */
